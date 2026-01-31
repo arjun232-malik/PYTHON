@@ -1,5 +1,15 @@
-with open("practice.txt","r") as f:
+def check_for_line():
+    word="python"
+    line=1
+    data=True
+    with open("practice.txt","r") as f:
+        
+        while(data):
+         data=f.readline() # data ---->>> string
+         if(word in data):
+             return line
+         line+=1
+    return -1     
 
-    data=f.read() # data ---->>> string
-    
+print(check_for_line())
     
