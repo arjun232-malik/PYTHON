@@ -11,5 +11,5 @@ marks.insert(2,'y') #iss hum koi sublist ko add kr skte hai list me
 print(marks)
 marks.remove('a') #ye function uss element ke first occurrence ko remove kr deta hai
 print(marks)
-marks.pop(1) #ye function uss elemnt ko remove kr deta hai 
+marks.pop(1) #ye function uss element ko remove kr deta hai 
 print(marks)
