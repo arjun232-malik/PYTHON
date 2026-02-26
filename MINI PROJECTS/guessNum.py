@@ -8,9 +8,9 @@ while True:
         break
     num_1=int(num_1)
     if(num_1<temp):
-      print(num_1,"IS SMALLER")
+      print("NUMBER IS GREATER THAN",num_1)
     elif(num_1>temp):
-     print(num_1,"IS LARGER")
+     print("NUMBER IS SMALLER THAN",num_1)
     else:
      print("CORRECT GUESS")
      break
