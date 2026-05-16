@@ -8,8 +8,8 @@ while True:
         print(lst)
     elif(ask=='A'):
         ch.append(str(input("")))
+        ch.append('\n')
         lst=str.join(" ",ch)
-        print('\n')
     elif(ask=='D'):
         ch.pop(int(input("ENTER THE NUMBER OF LINE YOU WANT TO DELETE:")))
         lst=str.join(" ",ch)
