@@ -1,4 +1,4 @@
-ch=['To Do List:\n','1. Wake up at 6 am\n','2. 10 push up everyday\n','3. Finish one lecture of C++ DSA everyday\n','4. Do revision of notes\n']
+ch = ['To Do List:\n','1. Wake up at 6 am\n','2. 10 push up everyday\n','3. Finish one lecture of C++ DSA everyday\n','4. Do revision of notes\n']
 lst=str.join(" ",ch)
 
 while True:
