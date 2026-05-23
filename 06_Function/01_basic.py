@@ -8,7 +8,11 @@
 
 # print(calc_sum(6,10))
 
-def print_hello():
-    print("Hello")
+# def print_hello():
+#     print("Hello")
 
-print_hello()    
+# print_hello()    
+
+def greeting(name):
+    print(f"Good Morning {name}")
+greeting("Arjun")
